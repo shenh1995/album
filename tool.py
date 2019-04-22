@@ -234,7 +234,7 @@ def handle_photo():
 
     final_dict = {"list": list_info}
 
-    with open("E:/博客/hexo/themes/next/source/lib/data.json", "w") as fp:
+    with open("E:/博客/hexo/themes/next/source/lib/album/data.json", "w") as fp:
 
         json.dump(final_dict, fp)
 
