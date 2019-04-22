@@ -152,7 +152,7 @@ def compress_photo():
     if len(file_list_src) == 0:
         print("=====没有新文件需要压缩=======")
 
-    compress('4', des_dir, src_dir, file_list_src)
+    compress('1', des_dir, src_dir, file_list_src)
 
 
 def handle_photo():
